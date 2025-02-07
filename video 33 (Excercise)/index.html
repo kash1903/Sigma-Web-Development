@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multicolor Navbar</title>
+    <style>
+        :root{
+            --fircolor:rgb(232, 36, 36);
+            --seccolor:rgb(47, 202, 47);
+            --thircolor:white;
+
+
+
+        }
+
+      .one:hover{
+        background-color: blueviolet;
+        cursor: pointer;
+    }
+    .two:hover{
+        background-color: blueviolet;
+        cursor: pointer;
+    }
+    .three:hover{
+        background-color: blueviolet;
+        cursor: pointer;
+      }
+        .nav {
+           background-color: yellowgreen;
+        }
+     ul {
+        display: flex;
+       
+     }
+     ul li{
+        list-style: none;
+        padding: 5px;
+        color: blue;
+     }
+     .one{
+        background-color: var(--fircolor);
+        color: var(--thircolor);
+    }
+    .two{
+        background-color: var(--seccolor);
+    }
+    .three{
+        background-color: var(--fircolor);
+        color: var(--thircolor);
+     }
+
+
+    </style>
+</head>
+<body>
+
+    <div class="nav">
+        <ul>
+             <li class="one">HOME</li>
+             <li class="two">ABOUT</li>
+             <li  class="three">CONTACT</li>
+        </ul>
+    </div>
+    
+</body>
+</html>

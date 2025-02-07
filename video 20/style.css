@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors in CSS</title>
+    <style>
+        /* Class Selector */
+        .red{
+            background-color: red;
+            color: green;
+        }
+        /* Id Selector */
+        #green{
+            background-color: green;
+        }
+        /* Child Selector */
+
+        div >p{
+            background-color: pink;
+        }
+
+        /* Descendent Selector */
+        div p{
+            background-color: pink;
+        }
+
+        /* Universal Selector */
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Pseudo Selector */
+        a:visited{
+            color: orange;
+        }
+
+        a:link{
+            color: rebeccapurple;
+
+        }
+        a:active{
+            background-color: green;
+        }
+        a:hover{
+            background-color: yellow;
+        }
+        p:first-child{
+            background-color: aqua;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <main class="one">
+        <p>I am one </p>
+        <p>I am two </p>
+
+    </main>
+    <div class="red">This is an independent country
+        <article> 
+        <p>I am a para inside </p>
+    </article>
+    </div>
+    <div id="green">India is an independent country </div>
+    <a href="https://www.google.com/">Go to google</a>
+
+</body>
+</html>

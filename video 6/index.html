@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="This is the description about this web page used by search engine "
+    />
+    <title>HTML FORMS</title>
+  </head>
+  <body>
+    <h1>Forms to apply for Wipro pvt ltd</h1>
+    <form action="post">
+      <label for="username">Enter your Username </label>
+      <input
+        type="text"
+        name="username"
+        id="username"
+        placeholder="Enter your Username "
+      />
+      <div>
+        <input type="radio" id="male" />
+        <label for="male">Male</label>
+        <input type="radio" id="female" />
+        <label for="female">Female</label>
+      </div>
+      <div>
+        <input type="checkbox" id="subscribe" />
+        <label for="subscribe">Graduate </label>
+
+        <input type="checkbox" id="subscribe" />
+        <label for="subscribe">Diploma </label>
+
+        <input type="checkbox" id="subscribe" />
+        <label for="subscribe">Student </label>
+      </div>
+
+      <div>
+        <h4>Explain about yourselft in 50 words</h4>
+        <label for="comment">Enter your answer here :</label>
+        <br />
+        <textarea name="comment" id="" cols="30" rows="10">Write your text here...</textarea
+        >
+      </div>
+      <div>
+        <label for="exp" id="exp">Select your Experience</label>
+        <select name="Experience" id="exp">
+          <option value="1">1 year</option>
+          <option value="5">5 year</option>
+          <option value="10">10 year</option>
+        </select>
+      </div>
+      <div>
+        <input type="submit" value="submit" />
+      </div>
+    </form>
+  </body>
+</html>
